@@ -8,9 +8,9 @@
 <body>
 </body>
 
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/assets/css/chat.min.css">
 <script>
     var botmanWidget = {
+        chatServer: '/api/botman',
         aboutText: 'write something here',
         introMessage: "✋ Hi! I'm form shouts.dev"
     };
